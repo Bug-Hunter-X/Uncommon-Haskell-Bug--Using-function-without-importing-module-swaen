@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Haskell related to using functions without explicitly importing their modules.  The bug is difficult to track because it might not lead to a compiler error if a similarly named function exists in a different module. The solution showcases how to correctly import the required modules to fix the issue.
